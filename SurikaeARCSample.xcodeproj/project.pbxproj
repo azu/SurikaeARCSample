@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B5C06770C2C4B5C49171E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C7A2075C7E67C40C7767 /* CoreGraphics.framework */; };
+		17B5C19E8FEDBFFBA770960E /* IUTSurikae.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C555E4C2A9DD2E4F3336 /* IUTSurikae.m */; };
+		17B5C205F8120F019D8309DA /* surikae.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CA2F73CC0F795C50996B /* surikae.m */; };
+		17B5C389F4B704E4235B3D2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C780AAC5AF95FE2A0BE5 /* UIKit.framework */; };
+		17B5C3A7CE1087C1F414CBE4 /* surikae.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CA2F73CC0F795C50996B /* surikae.m */; };
+		17B5C452844C6AF047A91FAD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CA5C5FFFBC6589079E2C /* Default.png */; };
+		17B5C4D2581341A39BBD7110 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C2A193225C5A9435490F /* Default-568h@2x.png */; };
+		17B5C4F840B1F5A06A93104F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C6621B706C376D35DEF1 /* Foundation.framework */; };
+		17B5C552727FABF703D1D8B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C449D5E9D6BBC2A2D366 /* InfoPlist.strings */; };
+		17B5C62EEE54A00F5CEB033C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C780AAC5AF95FE2A0BE5 /* UIKit.framework */; };
+		17B5C6B1545493DD2CDFC617 /* SurikaeARCSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C03F96B30BA5BD6168BF /* SurikaeARCSampleTests.m */; };
+		17B5C7E603854957AFB7E47F /* IUTSurikae.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C555E4C2A9DD2E4F3336 /* IUTSurikae.m */; };
+		17B5C91551049E993E49F913 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CCAE1C5BB3CAB952589D /* SenTestingKit.framework */; };
+		17B5C9CA6ADAE8DC9717599E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CFEA23E780565B700964 /* main.m */; };
+		17B5CB51FDFBAC18A2024F67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CC60F1B802A808799C8E /* AppDelegate.m */; };
+		17B5CDB1D1668962BFB09415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C6621B706C376D35DEF1 /* Foundation.framework */; };
+		17B5CFBC55D74072806E304E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C14AF41B4B1A19E7ACDD /* Default@2x.png */; };
+		17B5CFE78B584A7972504314 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C700BD267056FACEFCD9 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B5CF7E01F2709CBA24B110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B5C0AD4BC9EA0F59115C17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B5CF4EF35AFADE21D3B980;
+			remoteInfo = SurikaeARCSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B5C008EB0F36DEE932D7DF /* IUTSurikae.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUTSurikae.h; sourceTree = "<group>"; };
+		17B5C03F96B30BA5BD6168BF /* SurikaeARCSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurikaeARCSampleTests.m; sourceTree = "<group>"; };
+		17B5C0950439CD23B6A79B37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17B5C13BB59FBF2D6FB58D03 /* SurikaeARCSampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurikaeARCSampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C140AB3A1DCD2B311B38 /* SurikaeARCSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SurikaeARCSample-Prefix.pch"; sourceTree = "<group>"; };
+		17B5C14AF41B4B1A19E7ACDD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		17B5C14D1C2DF89724F87AF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5C2A0827D3201AFA26E90 /* SurikaeARCSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "SurikaeARCSampleTests-Info.plist"; sourceTree = "<group>"; };
+		17B5C2A193225C5A9435490F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		17B5C555E4C2A9DD2E4F3336 /* IUTSurikae.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IUTSurikae.m; sourceTree = "<group>"; };
+		17B5C5917460FFDC4CA598B0 /* SurikaeARCSampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurikaeARCSampleTests.h; sourceTree = "<group>"; };
+		17B5C63BC71ED17811087CA7 /* surikae.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = surikae.h; sourceTree = "<group>"; };
+		17B5C6611C769761F383ED3D /* SurikaeARCSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "SurikaeARCSample-Info.plist"; sourceTree = "<group>"; };
+		17B5C6621B706C376D35DEF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17B5C780AAC5AF95FE2A0BE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17B5C7A2075C7E67C40C7767 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17B5C8FB99E018818EFB89EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5CA2F73CC0F795C50996B /* surikae.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = surikae.m; sourceTree = "<group>"; };
+		17B5CA5C5FFFBC6589079E2C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		17B5CC60F1B802A808799C8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17B5CCAE1C5BB3CAB952589D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		17B5CF3CEEA020DFA691E0C8 /* SurikaeARCSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurikaeARCSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5CFEA23E780565B700964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B5C9DA5778BDADE2501C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C91551049E993E49F913 /* SenTestingKit.framework in Frameworks */,
+				17B5C62EEE54A00F5CEB033C /* UIKit.framework in Frameworks */,
+				17B5C4F840B1F5A06A93104F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CC126EDF0B97E946BD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C389F4B704E4235B3D2E /* UIKit.framework in Frameworks */,
+				17B5CDB1D1668962BFB09415 /* Foundation.framework in Frameworks */,
+				17B5C06770C2C4B5C49171E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5C041BB28B6989F506ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C780AAC5AF95FE2A0BE5 /* UIKit.framework */,
+				17B5C6621B706C376D35DEF1 /* Foundation.framework */,
+				17B5C7A2075C7E67C40C7767 /* CoreGraphics.framework */,
+				17B5CCAE1C5BB3CAB952589D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B5C306F4857956237F6550 = {
+			isa = PBXGroup;
+			children = (
+				17B5C89FF916820AD0C57A4D /* Products */,
+				17B5C041BB28B6989F506ADD /* Frameworks */,
+				17B5C3EC97FA98BA7F1120CE /* SurikaeARCSample */,
+				17B5C4C127895FFD20DC25D5 /* SurikaeARCSampleTests */,
+				17B5CCC3064A8113CA3216ED /* surikae */,
+			);
+			sourceTree = "<group>";
+		};
+		17B5C3EC97FA98BA7F1120CE /* SurikaeARCSample */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CF0B2221AF6DE1EC51DA /* Supporting Files */,
+				17B5C0950439CD23B6A79B37 /* AppDelegate.h */,
+				17B5CC60F1B802A808799C8E /* AppDelegate.m */,
+			);
+			path = SurikaeARCSample;
+			sourceTree = "<group>";
+		};
+		17B5C4C127895FFD20DC25D5 /* SurikaeARCSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CF5DE4B0B32D51CFBF96 /* Supporting Files */,
+				17B5C5917460FFDC4CA598B0 /* SurikaeARCSampleTests.h */,
+				17B5C03F96B30BA5BD6168BF /* SurikaeARCSampleTests.m */,
+			);
+			path = SurikaeARCSampleTests;
+			sourceTree = "<group>";
+		};
+		17B5C89FF916820AD0C57A4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CF3CEEA020DFA691E0C8 /* SurikaeARCSample.app */,
+				17B5C13BB59FBF2D6FB58D03 /* SurikaeARCSampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B5CCC3064A8113CA3216ED /* surikae */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C008EB0F36DEE932D7DF /* IUTSurikae.h */,
+				17B5C555E4C2A9DD2E4F3336 /* IUTSurikae.m */,
+				17B5C63BC71ED17811087CA7 /* surikae.h */,
+				17B5CA2F73CC0F795C50996B /* surikae.m */,
+			);
+			path = surikae;
+			sourceTree = "<group>";
+		};
+		17B5CF0B2221AF6DE1EC51DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C6611C769761F383ED3D /* SurikaeARCSample-Info.plist */,
+				17B5C700BD267056FACEFCD9 /* InfoPlist.strings */,
+				17B5CFEA23E780565B700964 /* main.m */,
+				17B5C140AB3A1DCD2B311B38 /* SurikaeARCSample-Prefix.pch */,
+				17B5CA5C5FFFBC6589079E2C /* Default.png */,
+				17B5C14AF41B4B1A19E7ACDD /* Default@2x.png */,
+				17B5C2A193225C5A9435490F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5CF5DE4B0B32D51CFBF96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C2A0827D3201AFA26E90 /* SurikaeARCSampleTests-Info.plist */,
+				17B5C449D5E9D6BBC2A2D366 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B5CAAA3752741E926D5F6B /* SurikaeARCSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5CF8E41C86E00172E656F /* Build configuration list for PBXNativeTarget "SurikaeARCSampleTests" */;
+			buildPhases = (
+				17B5C1E10C0CEC04CF9E94C5 /* Sources */,
+				17B5C9DA5778BDADE2501C1E /* Frameworks */,
+				17B5C47947358C5EDBCC64F6 /* Resources */,
+				17B5C14256AC8F9D44AD5180 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B5CBBEB08A63F7B829F98D /* PBXTargetDependency */,
+			);
+			name = SurikaeARCSampleTests;
+			productName = SurikaeARCSampleTests;
+			productReference = 17B5C13BB59FBF2D6FB58D03 /* SurikaeARCSampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		17B5CF4EF35AFADE21D3B980 /* SurikaeARCSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C01D491B403FC31C3217 /* Build configuration list for PBXNativeTarget "SurikaeARCSample" */;
+			buildPhases = (
+				17B5C0991E829723779849E6 /* Sources */,
+				17B5CC126EDF0B97E946BD5A /* Frameworks */,
+				17B5CA3D6C8F6BE8492EDA45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurikaeARCSample;
+			productName = SurikaeARCSample;
+			productReference = 17B5CF3CEEA020DFA691E0C8 /* SurikaeARCSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B5C0AD4BC9EA0F59115C17 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 17B5C99481EE21CBBC2304AA /* Build configuration list for PBXProject "SurikaeARCSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B5C306F4857956237F6550;
+			productRefGroup = 17B5C89FF916820AD0C57A4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B5CF4EF35AFADE21D3B980 /* SurikaeARCSample */,
+				17B5CAAA3752741E926D5F6B /* SurikaeARCSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B5C47947358C5EDBCC64F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C552727FABF703D1D8B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CA3D6C8F6BE8492EDA45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CFE78B584A7972504314 /* InfoPlist.strings in Resources */,
+				17B5C452844C6AF047A91FAD /* Default.png in Resources */,
+				17B5CFBC55D74072806E304E /* Default@2x.png in Resources */,
+				17B5C4D2581341A39BBD7110 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17B5C14256AC8F9D44AD5180 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B5C0991E829723779849E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C9CA6ADAE8DC9717599E /* main.m in Sources */,
+				17B5CB51FDFBAC18A2024F67 /* AppDelegate.m in Sources */,
+				17B5C19E8FEDBFFBA770960E /* IUTSurikae.m in Sources */,
+				17B5C205F8120F019D8309DA /* surikae.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5C1E10C0CEC04CF9E94C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C6B1545493DD2CDFC617 /* SurikaeARCSampleTests.m in Sources */,
+				17B5C7E603854957AFB7E47F /* IUTSurikae.m in Sources */,
+				17B5C3A7CE1087C1F414CBE4 /* surikae.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B5CBBEB08A63F7B829F98D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B5CF4EF35AFADE21D3B980 /* SurikaeARCSample */;
+			targetProxy = 17B5CF7E01F2709CBA24B110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B5C449D5E9D6BBC2A2D366 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C8FB99E018818EFB89EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17B5C700BD267056FACEFCD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C14D1C2DF89724F87AF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B5C00582A9D33D18DC0031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B5C4167FEE611AD85C6CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SurikaeARCSample/SurikaeARCSample-Prefix.pch";
+				INFOPLIST_FILE = "SurikaeARCSample/SurikaeARCSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17B5C6939F25F6F72F7EAFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SurikaeARCSample.app/SurikaeARCSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SurikaeARCSample/SurikaeARCSample-Prefix.pch";
+				INFOPLIST_FILE = "SurikaeARCSampleTests/SurikaeARCSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		17B5C76BAB803738CB4DD855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SurikaeARCSample/SurikaeARCSample-Prefix.pch";
+				INFOPLIST_FILE = "SurikaeARCSample/SurikaeARCSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17B5CB4AE15CCB906E851BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SurikaeARCSample.app/SurikaeARCSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SurikaeARCSample/SurikaeARCSample-Prefix.pch";
+				INFOPLIST_FILE = "SurikaeARCSampleTests/SurikaeARCSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		17B5CEA7C0302EDE76E54823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B5C01D491B403FC31C3217 /* Build configuration list for PBXNativeTarget "SurikaeARCSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C76BAB803738CB4DD855 /* Release */,
+				17B5C4167FEE611AD85C6CF7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5C99481EE21CBBC2304AA /* Build configuration list for PBXProject "SurikaeARCSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C00582A9D33D18DC0031 /* Release */,
+				17B5CEA7C0302EDE76E54823 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5CF8E41C86E00172E656F /* Build configuration list for PBXNativeTarget "SurikaeARCSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C6939F25F6F72F7EAFC1 /* Release */,
+				17B5CB4AE15CCB906E851BCC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B5C0AD4BC9EA0F59115C17 /* Project object */;
+}
